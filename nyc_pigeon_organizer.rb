@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
+  
   pigeon_list = {}
   data.each do |key, value| #key:color,gender,lives #value:hash
   value.each do |describe, array| #describe:purple, male, subway
